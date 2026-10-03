@@ -13,7 +13,7 @@ The pages are plain HTML and CSS: no scripts, no cookies, no trackers or analyti
 
 ## State
 
-Draft. The repo is private and GitHub Pages is off. Brandon approves the words first; then the repo goes public, Pages is turned on, and the domain is pointed at it.
+Published 2026-10-03, after Brandon approved the words. The repo is public and GitHub Pages serves it from `main` at https://theslowroad.app/.
 
 The privacy policy describes the app as it is at The Slow Road commit it was checked against. It is read again whenever the app changes what it sends, and before the public build, when Identify's photo moves to a server of Brandon's.
 
