@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · The Slow Road</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+<header class="site"><a href="/">The Slow Road</a></header>
+
+<h1>Privacy</h1>
+<p class="meta">Effective October 3, 2026</p>
+
+<p>I'm Brandon, and I make The Slow Road on my own. This page says what the app does with your information, in plain words. It describes the app as it is today, and says where that will change before the app is released.</p>
+
+<h2>The short version</h2>
+<ul>
+<li>What you record stays on your phone, with a backup copy in your own iCloud if you use iCloud.</li>
+<li>The app has no accounts, no ads, no analytics and no tracking. It has no server of mine, and nothing in it sends your information to me.</li>
+<li>A few things have to leave the phone to work: a photo you ask Identify to name goes to Anthropic, map tiles come from map providers, and search and directions go to Apple.</li>
+</ul>
+
+<h2>What stays on your phone</h2>
+<p>Everything you record is saved on your phone: the places you've marked, your field journal and its photos, your field guide, your trips and the GPS track of each drive, your saved plans, the stops you've visited, and your Home point. Your settings stay on the phone too.</p>
+<p>The app uses your location on the phone, to record the roads you drive, show where you are on the map, and play Bill's stories when Bill is on. Your location itself isn't sent anywhere. Two things below can show roughly where you are: the map tiles your phone asks for, and planning a trip from where you are.</p>
+<p>Photos you take with Identify's camera are also added to a "The Slow Road" album in your Photos library.</p>
+
+<h2>Your iCloud backup</h2>
+<p>If you use iCloud on your phone, the app copies your record into its own folder in your iCloud Drive, so a new phone can get it back. That copy holds everything in the list above. A drive still in progress, the app's crash-recovery copy of it, the plan you're following right now and the saved map tiles are never copied.</p>
+<p>The copy lives in your own iCloud account and counts against your iCloud storage. Your phone does the uploading; the app doesn't send it to any server. Apple encrypts it in transit and on its servers. Apple explains how it protects iCloud data on its <a href="https://support.apple.com/en-us/102651">iCloud data security page</a>.</p>
+
+<h2>Identify</h2>
+<p>When you ask Identify to name something, the app sends that one photo to Anthropic, the company behind the Claude AI, along with the app's own fixed instructions. Before it goes, the photo is redrawn as a new image, so it carries no location, no camera make or model, and no other photo details. Nothing else goes with it: no location, no notes, nothing from your journal.</p>
+<p>Like any request over the internet, it also reaches Anthropic with your phone's IP address and a few standard details iOS adds, such as your iOS version and your preferred languages.</p>
+<p>Anthropic deletes what the app sends within 30 days. If its automated safety systems flag a request, it can keep it for up to 2 years. That's from Anthropic's page on <a href="https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-personal-data">how long it stores data</a>.</p>
+<p>Today the photo goes straight from your phone to Anthropic. Before the app is released, it will go to a server of mine first, which passes it on to Anthropic. I'll update this page to say exactly what that server receives before that version ships.</p>
+
+<h2>Maps</h2>
+<p>The maps are drawn from tiles, small squares of map for one place at one zoom level. Some tiles come built into the app, and tiles you've already looked at are saved on your phone so they work without a signal. When the app needs a tile it doesn't have, it asks a map provider for it. That request tells the provider which piece of map you're looking at, and it arrives with your phone's IP address and the standard details any web request carries. Here is who the providers are and what each says it keeps:</p>
+<ul>
+<li><a href="https://openfreemap.org/">OpenFreeMap</a> supplies the streets, places and labels on the road and places maps. It says it doesn't log IP addresses by default, keeps anonymous logs of things like browser type, operating system and time, and may log IP addresses for up to 30 days during a security incident (<a href="https://openfreemap.org/privacy/">its privacy policy</a>).</li>
+<li><a href="https://mapterhorn.com/">Mapterhorn</a> supplies the terrain shading on those maps. It says it keeps the IP address and user agent of each request for up to 30 days (<a href="https://mapterhorn.com/privacy-policy/">its privacy policy</a>).</li>
+<li>The U.S. Geological Survey's <a href="https://www.usgs.gov/programs/national-geospatial-program/national-map">The National Map</a> supplies the topographic maps, like the one in your field journal. USGS says it logs the IP address, browser and operating system, time and what was requested, for running its sites (<a href="https://www.usgs.gov/privacy-policies">its privacy policy</a>).</li>
+</ul>
+
+<h2>Apple</h2>
+<ul>
+<li>When you search for a place in the trip planner, or for an address when you choose your Home, the words you type go to Apple's map search.</li>
+<li>When you ask the app to suggest how to split a leg of a planned trip, or open a leg in Apple Maps, the start and end of that leg go to Apple. If you planned from your Home or from where you are, that point is one of them.</li>
+<li>The map you use to choose your Home is Apple Maps.</li>
+</ul>
+<p><a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> covers what Apple does with these.</p>
+<p>The app sends no crash reports or usage statistics of its own. If you've turned on Share With App Developers in iOS, Apple may share crash data and statistics with me, in a form that doesn't identify you. You can turn that off in Settings → Privacy &amp; Security → Analytics &amp; Improvements (<a href="https://www.apple.com/legal/privacy/data/en/app-analytics/">Apple's page</a>).</p>
+
+<h2>Links and sharing</h2>
+<p>A link on a page, like a park's visitor information, opens in your browser, and that website's own policy applies. If you share a trip's track from the app, it goes wherever you send it.</p>
+
+<h2>No tracking</h2>
+<p>There are no ads, no analytics, no tracking and no accounts. I don't sell or share your information, and the app doesn't send it to me.</p>
+
+<h2>This website</h2>
+<p>theslowroad.app is hosted on GitHub Pages. The site uses no cookies, no scripts, no analytics and no outside fonts. GitHub logs the IP address of every visitor for security purposes, as <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub's documentation</a> says, and the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> covers it.</p>
+
+<h2>Changes</h2>
+<p>When the app changes what it does with your information, I'll update this page and the date at the top before that version ships.</p>
+
+<h2>Questions</h2>
+<p>Email <a href="mailto:support@theslowroad.app">support@theslowroad.app</a>.</p>
+
+<footer><a href="/">Home</a> · <a href="/support/">Support</a></footer>
+</main>
+</body>
+</html>
