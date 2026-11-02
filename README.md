@@ -15,6 +15,6 @@ The pages are plain HTML and CSS: no scripts, no cookies, no trackers or analyti
 
 Published 2026-10-03, after Brandon approved the words. The repo is public and GitHub Pages serves it from `main` at https://theslowroad.app/.
 
-The privacy policy describes the app as it is at The Slow Road commit it was checked against. It is read again whenever the app changes what it sends, and before the public build, when Identify's photo moves to a server of Brandon's.
+The privacy policy describes the App Store build, on which Identify's photo goes through Brandon's key server to Anthropic. Its current version went live 2026-11-02. It is read again whenever the app changes what it sends.
 
 Support mail: support@theslowroad.app.
